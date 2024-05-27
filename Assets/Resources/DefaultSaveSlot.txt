@@ -1,0 +1,316 @@
+{
+  "Player%1": {
+    "unit": {
+      "transform": "{\r\n  \"xPos\": 114.3463,\r\n  \"yPos\": 0,\r\n  \"zPos\": 10.11886,\r\n  \"xRot\": 0.0,\r\n  \"yRot\": 0.0,\r\n  \"zRot\": 0.0\r\n}",
+      "inventory": {
+        "Other": {},
+        "Ingredient": {},
+        "Material": {},
+        "Ammunition": {},
+        "Equipment": {}
+      },
+      "skillSet": {}
+    },
+    "sets": {
+      "Armor": "",
+      "Helm": "",
+      "Scapular": "",
+      "MainHand": "Старый меч",
+      "AdditionalHand": "",
+      "Pants": "",
+      "Foots": "",
+      "armed": true
+    },
+    "move": {
+      "sprint": false,
+      "crouch": false
+    },
+    "state": {
+      "stats": {
+        "parameters": {
+          "MoveAcceleration": 5.0,
+          "SprintAcceleration": 50.0,
+          "MoveVelocity": 3.0,
+          "SprintVelocity": 12.0,
+          "ForceJump": 270.0,
+          "RotateSpeed": 5.0,
+          "Health": 100.0,
+          "Mana": 100.0,
+          "Stamina": 170.0,
+          "HPRegInSec": 0.5,
+          "MPRegInSec": 0.5,
+          "SPRegInSec": 2.5,
+          "Damage": 5.0
+        },
+        "effects": [],
+        "health": 36.63791,
+        "mana": 36.63791,
+        "stamina": 41.93519
+      },
+      "display": "Player",
+      "level": 1,
+      "experience": 0,
+      "points": 4
+    }
+  },
+  "Interface": {
+    "quests": {
+      "active": [],
+      "completed": []
+    },
+    "skills": {
+      "values": []
+    }
+  },
+  "Dealer%Start_Dealer%2": {
+    "unit": {
+      "transform": "{\r\n  \"xPos\": 22.36352,\r\n  \"yPos\": 0.27,\r\n  \"zPos\": 24.26072,\r\n  \"xRot\": 0.0,\r\n  \"yRot\": 45.858,\r\n  \"zRot\": 0.0\r\n}",
+      "speak": [
+        "first_meeting",
+        "main_dialogue"
+      ],
+      "quest": [
+        "bandit_quest"
+      ],
+      "paragraph": [
+        {
+          "QuestID": "bandit_quest",
+          "ParagraphID": "Сказать старосте, что бандиты убиты"
+        }
+      ],
+      "style": 0,
+      "prefab": 3
+    },
+    "sets": {
+      "Armor": "",
+      "Helm": "",
+      "Scapular": "",
+      "MainHand": "",
+      "AdditionalHand": "",
+      "Pants": "",
+      "Foots": "",
+      "armed": false
+    },
+    "ai": {
+      "state": 0,
+      "delay": 0.0,
+      "start": "-108,9|3,15|64,65",
+      "patroll": 0,
+      "points": []
+    },
+    "state": {
+      "stats": {
+        "parameters": {
+          "Health": 25.0,
+          "Mana": 10.0,
+          "HPRegInSec": 0.0,
+          "MPRegInSec": 0.0,
+          "Stamina": 0.0,
+          "SPRegInSec": 0.0,
+          "Damage": 3.0
+        },
+        "effects": [],
+        "health": 8.333333,
+        "mana": 3.33333325,
+        "stamina": 0.0
+      },
+      "display": "Dealer"
+    },
+    "move": {
+      "sprint": false,
+      "crouch": false
+    }
+  },
+  "Melee%Simple_Bandit%3": {
+    "unit": {
+      "transform": "{\r\n  \"xPos\": -49.05005,\r\n  \"yPos\": 4.72052574,\r\n  \"zPos\": 38.99918,\r\n  \"xRot\": 0.0,\r\n  \"yRot\": 180.0,\r\n  \"zRot\": 0.0\r\n}",
+      "style": 2,
+      "prefab": 0
+    },
+    "sets": {
+      "Armor": "",
+      "Helm": "",
+      "Scapular": "",
+      "MainHand": "Старый меч",
+      "AdditionalHand": "Старый щит",
+      "Pants": "",
+      "Foots": "",
+      "armed": true
+    },
+    "ai": {
+      "state": 1,
+      "delay": 0.0,
+      "start": "-49,05|4,95|39",
+      "patroll": 0,
+      "points": [
+        "-50,33|3|31,8",
+        "-43,57|3|39",
+        "-44,6|3|33,7"
+      ]
+    },
+    "state": {
+      "stats": {
+        "parameters": {
+          "Health": 25.0,
+          "Mana": 10.0,
+          "HPRegInSec": 0.0,
+          "MPRegInSec": 0.0,
+          "Stamina": 0.0,
+          "SPRegInSec": 0.0,
+          "Damage": 3.0
+        },
+        "effects": [],
+        "health": 8.333333,
+        "mana": 3.33333325,
+        "stamina": 0.0
+      },
+      "display": "Enemy dummy"
+    },
+    "move": {
+      "sprint": false,
+      "crouch": false
+    }
+  },
+  "Melee%Simple_Bandit%4": {
+    "unit": {
+      "transform": "{\r\n  \"xPos\": -46.7809334,\r\n  \"yPos\": 4.581367,\r\n  \"zPos\": 41.260994,\r\n  \"xRot\": 0.0,\r\n  \"yRot\": 243.901672,\r\n  \"zRot\": 0.0\r\n}",
+      "style": 2,
+      "prefab": 0
+    },
+    "sets": {
+      "Armor": "",
+      "Helm": "",
+      "Scapular": "",
+      "MainHand": "Старый меч",
+      "AdditionalHand": "Старый щит",
+      "Pants": "",
+      "Foots": "",
+      "armed": true
+    },
+    "ai": {
+      "state": 1,
+      "delay": 0.0,
+      "start": "-46,7809|4,65|41,26155",
+      "patroll": 0,
+      "points": [
+        "-39|4,65|48,9",
+        "-47,4|4,65|48,9",
+        "-39|4,65|45,3"
+      ]
+    },
+    "state": {
+      "stats": {
+        "parameters": {
+          "Health": 25.0,
+          "Mana": 10.0,
+          "HPRegInSec": 0.0,
+          "MPRegInSec": 0.0,
+          "Stamina": 0.0,
+          "SPRegInSec": 0.0,
+          "Damage": 3.0
+        },
+        "effects": [],
+        "health": 8.333333,
+        "mana": 3.33333325,
+        "stamina": 0.0
+      },
+      "display": "Enemy dummy"
+    },
+    "move": {
+      "sprint": false,
+      "crouch": false
+    }
+  },
+  "Melee%Simple_Bandit%5": {
+    "unit": {
+      "transform": "{\r\n  \"xPos\": -52.1000023,\r\n  \"yPos\": 4.7735486,\r\n  \"zPos\": 38.2599869,\r\n  \"xRot\": 0.0,\r\n  \"yRot\": 180.0,\r\n  \"zRot\": 0.0\r\n}",
+      "style": 2,
+      "prefab": 0
+    },
+    "sets": {
+      "Armor": "",
+      "Helm": "",
+      "Scapular": "",
+      "MainHand": "Старый меч",
+      "AdditionalHand": "Старый щит",
+      "Pants": "",
+      "Foots": "",
+      "armed": true
+    },
+    "ai": {
+      "state": 0,
+      "delay": 0.0,
+      "start": "-52,1|4,95|38,26",
+      "patroll": 0,
+      "points": []
+    },
+    "state": {
+      "stats": {
+        "parameters": {
+          "Health": 25.0,
+          "Mana": 10.0,
+          "HPRegInSec": 0.0,
+          "MPRegInSec": 0.0,
+          "Stamina": 0.0,
+          "SPRegInSec": 0.0,
+          "Damage": 3.0
+        },
+        "effects": [],
+        "health": 8.333333,
+        "mana": 3.33333325,
+        "stamina": 0.0
+      },
+      "display": "Enemy dummy"
+    },
+    "move": {
+      "sprint": false,
+      "crouch": false
+    }
+  },
+  "Melee%Simple_Bandit%6": {
+    "unit": {
+      "transform": "{\r\n  \"xPos\": 34.41,\r\n  \"yPos\": 0,\r\n  \"zPos\": 77.18,\r\n  \"xRot\": 0.0,\r\n  \"yRot\": -157.752,\r\n  \"zRot\": 0.0\r\n}",
+      "style": 2,
+      "prefab": 0
+    },
+    "sets": {
+      "Armor": "",
+      "Helm": "",
+      "Scapular": "",
+      "MainHand": "Старый меч",
+      "AdditionalHand": "Старый щит",
+      "Pants": "",
+      "Foots": "",
+      "armed": true
+    },
+    "ai": {
+      "state": 0,
+      "delay": 0.0,
+      "start": "-46,92665|3,75|33,67431",
+      "patroll": 0,
+      "points": []
+    },
+    "state": {
+      "stats": {
+        "parameters": {
+          "Health": 25.0,
+          "Mana": 10.0,
+          "HPRegInSec": 0.0,
+          "MPRegInSec": 0.0,
+          "Stamina": 0.0,
+          "SPRegInSec": 0.0,
+          "Damage": 3.0
+        },
+        "effects": [],
+        "health": 8.333333,
+        "mana": 3.33333325,
+        "stamina": 0.0
+      },
+      "display": "Enemy dummy"
+    },
+    "move": {
+      "sprint": false,
+      "crouch": false
+    }
+  }
+}
